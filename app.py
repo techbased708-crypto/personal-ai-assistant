@@ -94,23 +94,3 @@ if query:
             "role": "assistant",
             "content": answer
         })
-agent = get_agent()
-
-user_input = st.chat_input("Kuch bhi poocho...")
-
-if user_input:
-    st.chat_message("user").write(user_input)
-
-    try:
-        result = agent.invoke({
-            "messages": [
-                {"role": "user", "content": user_input}
-            ]
-        })
-
-        answer = result["messages"][-1].content
-
-        st.chat_message("assistant").write(answer)
-
-    except Exception as e:
-        st.error(f"Error: {e}")
