@@ -1,0 +1,9 @@
+langchain
+langchain-groq
+langgraph
+langchain-community
+google-search-results
+streamlit
+python-dotenv
+requests
+pytz
