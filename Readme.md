@@ -28,7 +28,7 @@ Follow these steps to run the project locally on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/AapkaUsername/personal-ai-assistant.git](https://github.com/AapkaUsername/personal-ai-assistant.git)
+   git clone [https://github.com/techbased708-crypto/personal-ai-assistant.git](https://github.com/techbased708-crypto/personal-ai-assistant.git)
    cd personal-ai-assistant
 
 Install dependencies:
